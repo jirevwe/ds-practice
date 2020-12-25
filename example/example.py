@@ -4,7 +4,7 @@ def add(first, second):
     :param second: an integer
     :returns: The sum of the two numbers
     """
-    if second == None:
+    if second is None:
         raise TypeError('Supply all parameters')
     return first + second
 
