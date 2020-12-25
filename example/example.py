@@ -18,4 +18,4 @@ def power(number, exponent):
     """
     if exponent < 0 or number < 0:
         raise TypeError('The number must be more than 0')
-    return number**exponent
+    return number ** exponent
